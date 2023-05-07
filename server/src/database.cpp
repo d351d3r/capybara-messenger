@@ -37,7 +37,6 @@ if (sqlite3_exec(db_, create_messages_table_sql, nullptr, nullptr, nullptr) != S
     std::cerr << "Cannot create messages table: " << sqlite3_errmsg(db_) << std::endl;
 }
 
-
     if (db_) {
         sqlite3_close(db_);
     }

@@ -17,6 +17,4 @@ int main(int argc, char* argv[]) {
         std::cerr << "Exception: " << e.what() << std::endl;
         return 1;
     }
-
-    return 0;
 }

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.15)
 
 project(common)
 
@@ -17,6 +17,9 @@ set(HEADER_FILES
     user.hpp
 )
 
+find_package(Boost 1.66 REQUIRED COMPONENTS system)
+
 add_library(common STATIC ${SOURCE_FILES} ${HEADER_FILES})
 
 target_include_directories(common PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(common Boost::system)

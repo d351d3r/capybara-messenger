@@ -1,5 +1,5 @@
 [requires]
-qt/6.5.0
+qt/5.15.2
 sqlite3/3.36.0
 
 [generators]
