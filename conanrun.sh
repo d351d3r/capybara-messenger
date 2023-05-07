@@ -1,1 +1,0 @@
-. "/Users/anatolii/project/capybara-messenger/conanrunenv-release-armv8.sh"

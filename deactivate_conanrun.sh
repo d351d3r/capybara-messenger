@@ -1,1 +1,0 @@
-. "/Users/anatolii/project/capybara-messenger/deactivate_conanrunenv-release-armv8.sh"
