@@ -1,6 +1,0 @@
-[requires]
-qt/5.15.2
-sqlite3/3.36.0
-
-[generators]
-cmake_find_package
